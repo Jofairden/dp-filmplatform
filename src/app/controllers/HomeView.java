@@ -209,9 +209,4 @@ public class HomeView extends ViewService {
 		moviesListView.getItems().setAll(list);
 	}
 	
-	@FXML
-	public void exitApplication(ActionEvent event) {
-		Platform.exit();
-	}
-	
 }
