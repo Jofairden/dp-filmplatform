@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.MovieView">
+    <children>
+        <TitledPane collapsible="false" prefHeight="400.0" prefWidth="600.0" text="Film toevoegen" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                    <children>
+                        <Label text="Titel" />
+                        <TextField fx:id="titleTextField" />
+                        <Label text="Release jaar" />
+                        <TextField fx:id="releaseYearTextField" />
+                        <Label text="Productieland" />
+                        <TextField fx:id="countryTextField" />
+                        <Label text="Budget" />
+                        <TextField fx:id="budgetTextField" />
+                        <Button fx:id="addMovieButton" mnemonicParsing="false" text="Film toevoegen" textFill="#07c31d" />
+                    </children>
+                </VBox>
+            </content>
+        </TitledPane>
+    </children>
+</AnchorPane>
